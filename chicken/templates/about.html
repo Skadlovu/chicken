@@ -1,0 +1,30 @@
+{% extends 'base.html' %} 
+{% load static %} 
+{% block title %} Flexy Chicken-About 
+{% endblock %}
+{% block content %}
+        <section class="page-section about-heading">
+            <div class="container">
+                <img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" height="" width="500" src="{% static 'assets/img/about.jpeg' %}" alt="..." />
+                <div class="about-heading-content">
+                    <div class="row">
+                        <div class="col-xl-9 col-lg-10 mx-auto">
+                            <div class="bg-faded rounded p-5">
+                                <h2 class="section-heading mb-4">
+                                    <span class="section-heading-upper">Strong Flavour, Strong Roots</span>
+                                    <span class="section-heading-lower">About Flexy Chicken</span>
+                                </h2>
+                                <p>Founded in 2020 by Snethemba, our establishment has been serving up delicious chicken sourced from local farmers. Our passion for poultry perfection and dedication to culinary excellence have fueled the creation of a menu that
+                                tantalizes taste buds and leaves a lasting impression.</p>
+                                <p class="mb-0">
+                                    Indulge in the irresistible crispiness and succulence of our carefully crafted fried chicken, where every golden bite is
+                                    a celebration of flavor. From our secret blend of spices to our commitment to using the freshest, highest quality
+                                    ingredients, we ensure that each piece of chicken that leaves our kitchen is a masterpiece of taste and texture.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        {% endblock %}

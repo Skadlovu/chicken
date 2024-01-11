@@ -1,0 +1,63 @@
+{% extends 'base.html' %} 
+{% load static %} 
+{% block title %} Flexy Chicken-Product 
+{% endblock %}
+{% block content %}
+        <section class="page-section">
+            <div class="container">
+                <div class="product-item">
+                    <div class="product-item-title d-flex">
+                        <div class="bg-faded p-5 d-flex ms-auto rounded">
+                            <h2 class="section-heading mb-0">
+                                <span class="section-heading-upper">Grilled to Perfection</span>
+                                <span class="section-heading-lower">Chicken,fries & Pap</span>
+                            </h2>
+                        </div>
+                    </div>
+                    <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="{% static 'assets/img/products-01.jpeg' %}" alt="..." />
+                    <div class="product-item-description d-flex me-auto">
+                        <div class="bg-faded p-5 rounded"><p class="mb-0">Whether you're a fan of classic fried chicken, adventurous enough to try our signature spicy varieties, or looking for a
+                        family-friendly meal that satisfies everyone, Flexy Chicken is the go-to destination for poultry perfection</p></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="page-section">
+            <div class="container">
+                <div class="product-item">
+                    <div class="product-item-title d-flex">
+                        <div class="bg-faded p-5 d-flex me-auto rounded">
+                            <h2 class="section-heading mb-0">
+                                <span class="section-heading-upper">Delicious and the Best</span>
+                                <span class="section-heading-lower">Food for the soul</span>
+                            </h2>
+                        </div>
+                    </div>
+                    <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="{% static 'assets/img/products-02.jpeg' %}" alt="..." />
+                    <div class="product-item-description d-flex ms-auto">
+                        <div class="bg-faded p-5 rounded"><p class="mb-0">Our commitment to excellence extends beyond the kitchen to our warm and inviting atmosphere, creating a dining
+                        experience that is as memorable as our mouthwatering menu.</p></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="page-section">
+            <div class="container">
+                <div class="product-item">
+                    <div class="product-item-title d-flex">
+                        <div class="bg-faded p-5 d-flex ms-auto rounded">
+                            <h2 class="section-heading mb-0">
+                                <span class="section-heading-upper">Food cooked with Love</span>
+                                <span class="section-heading-lower">With the finest spices</span>
+                            </h2>
+                        </div>
+                    </div>
+                    <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="{% static 'assets/img/products-03.jpeg' %}" alt="..." />
+                    <div class="product-item-description d-flex me-auto">
+                        <div class="bg-faded p-5 rounded"><p class="mb-0">Join us at Flexy Chicken and discover the artistry of chicken frying at its finest. We invite you to savor the
+                        moment, share the joy, and make Flexy Chicken your ultimate destination for a cluckin' good time!</p></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+{% endblock %}
